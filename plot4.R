@@ -48,7 +48,8 @@ with(df2, plot(DateTime, Voltage,
 
 #Plot 4
 with(df2, plot(DateTime, Global_reactive_power, 
-               type = "l", 
+               type = "l",
+               lwd = 1,
                xlab = "datetime",
                ylab = "Global_reactive_power"))
 
